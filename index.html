@@ -1,43 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
+    <title>Simple Starter</title>
+    <meta name="description" content="Simple Starter Description" />
 
-	<meta charset="utf-8">
-	<!-- <base href="/"> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-	<title>Simple Starter</title>
-	<meta name="description" content="Simple Starter Description">
+    <link rel="icon" href="" />
+    <!-- <meta property="og:image" content="images/preview.jpg"> -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css" />
 
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/preview.jpg">
+    <script src="js/common.js" defer></script>
+  </head>
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
-
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
-
-	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
-
-	<script src="js/common.js" defer></script>
-
-</head>
-
-<body>
-<h1>Ну что будем начинать итди к своей мичте</h1>
-	<div class="container"><br>
-		<div class="row">
-			<div class="col-lg-8">
-				<img class="image" src="images/preview.png" alt="Image Example">
-			</div>
-			<div class="col text">
-				<span class="accent">Simple Starter</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias?
-			</div>
-		</div>
-	</div>
-
-</body>
+  <body>
+    <header class="header"></header>
+    <div class="bar">
+      <div>
+        <img src="" alt="" />
+        <span>Oleksandr Polishchuk</span>
+        <span>Mode: <span id="user_status">ReHabLife</span></span>
+      </div>
+      <div>
+        <button>Меню сайта</button>
+        <button>Мое меню</button>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li class="nav_li">Главная</li>
+          <li class="nav_li">Статьи</li>
+          <li class="nav_li">
+            <span>Ресурсы</span>
+            <ul class="li">
+              Инструменты
+            </ul>
+            <ul class="li">
+              Научные исследования
+            </ul>
+            <ul class="li">
+              Книг
+            </ul>
+            <ul class="li">
+              Видеоуроки
+            </ul>
+            <ul class="li">
+              Онлайн-курсы
+            </ul>
+          </li>
+          <li class="nav_li">Программы</li>
+          <li class="nav_li">Услуги</li>
+          <li class="nav_li">Обратная связь</li>
+          <li class="nav_li">Конфиденциальности</li>
+        </ul>
+      </nav>
+      <div>
+        <a href="">Settings</a>
+        <button>Log out</button>
+      </div>
+      <div>
+        <ul>
+          <li>telegram</li>
+          <li>discord</li>
+        </ul>
+      </div>
+    </div>
+    <main class="main">
+      <section class="section hero__section">
+        <div class="container hero__container">
+          <h1 class="hero__title">ReTechneBal</h1>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
